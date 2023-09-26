@@ -54,6 +54,9 @@ if st.button('Generate my profile!'):
        st.write("Anxious attachment types are often nervous and stressed about their relationships. They need constant reassurance and affection from their partner.")
        st.divider()
        
+       
+       st.video("https://www.youtube.com/watch?v=EdpaCMW1PHw&ab_channel=HeidiPriebe", format="video/mp4", start_time=0)
+       
        st.write("Below are some recommendations suitable for your attachment style :wink:")
        col1, col2, col3 = st.columns(3, gap="medium")
        with col1:
@@ -77,6 +80,8 @@ if st.button('Generate my profile!'):
         st.write("Your attachment style is ***Avoidant***!")
         st.write("Avoidant attachment types are extremely independent, self-directed, and often uncomfortable with intimacy. They’re commitment-phobes and experts at rationalizing their way out of any intimate situation.")
         st.divider()
+        
+        st.video("https://www.youtube.com/watch?v=zv7ROoYCi6s&ab_channel=HeidiPriebe", format="video/mp4", start_time=0)
         
         st.write("Below are some recommendations suitable for your attachment style :wink:")
         col1, col2, col3 = st.columns(3, gap="medium")
